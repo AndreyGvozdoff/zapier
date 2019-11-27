@@ -1,0 +1,29 @@
+{
+  "name": "job-router",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "homepage": "",
+  "author": "",
+  "license": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "engines": {
+    "node": ">=8.10.0",
+    "npm": ">=5.6.0"
+  },
+  "dependencies": {
+    "form-data": "^3.0.0",
+    "request": "^2.88.0",
+    "url": "^0.11.0",
+    "zapier-platform-core": "8.4.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "nock": "^11.7.0",
+    "should": "^13.2.0"
+  },
+  "private": true
+}
